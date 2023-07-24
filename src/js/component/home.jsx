@@ -32,7 +32,7 @@ const Home = () => {
 					))}
 
 					<li className="px-4 tasks-left">
-						{list.length} tasks {list.length === 0 ? ", add a task!" : ""}
+					{list.length} {list.length === 1 ? "task" : "tasks"}{list.length === 0 ? ", add a task!" : ""}
 					</li>
 				</ul>
 			</div>
